@@ -3,8 +3,10 @@
  ・git add
  ・git commit
  ・git rm　　削除
+ ・git rm --cached ファイル名　　gitの管理下から外す（さらに.gitignoreにファイル名を追加する必要がある）
  ・git status　　ディレクトリの変更状況を確認
  ・git log (git log --oneline -n 3 : 直近の3行分だけ１行でコメントを表示、git log -p : 変更した詳細を表示)
  ・git diff　ローカルとステージングとの差分の詳細確認
  ・git diff  HEAD ステージングとコミット（ローカルリポジトリ）との差分の詳細確認
-
+ ・git reset HEAD　ファイル名　元の状態（ステージング等）に戻す
+ ・.gitignore　git管理下に置きたくないファイルやパスワードファイルなどを指定
