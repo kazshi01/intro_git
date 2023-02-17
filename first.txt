@@ -5,4 +5,5 @@
  ・git rm　　削除
  ・git status　　ディレクトリの変更状況を確認
  ・git log (git log --oneline -n 3 : 直近の3行分だけ１行でコメントを表示、git log -p : 変更した詳細を表示)
+ ・git diff
 
